@@ -37,7 +37,6 @@ func syncProducer(strMsg string) {
 	partition, offset, err := producer.SendMessage(msg)
 
 	if err != nil {
-		fmt.Printf("producer.go-->syncProducer SendMassage err: %s\n", err)
 		panic(err)
 	}
 	fmt.Sprintf("%s_partition_%d\n", partition, offset)
