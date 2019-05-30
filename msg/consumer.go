@@ -9,7 +9,7 @@ import (
 /*
 	Global variable
  */
-var Address = []string{"10.110.25.114:9092", "10.110.25.113:9092", "10.110.25.108:9092"}
+//var Address = []string{"10.110.25.114:9092", "10.110.25.113:9092", "10.110.25.108:9092"}
 var (
 	topicName = "monitor-metrics"
 	wg sync.WaitGroup
